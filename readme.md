@@ -16,3 +16,9 @@ It is a app where user can get a logical prediction of their disease based on th
 ## Light Varient
 
 ![image](https://user-images.githubusercontent.com/98341839/218334004-1ecf448f-e720-438b-b083-ad01213d03d1.png)
+
+
+# APP UI FIGMA LINK
+---------------------------------------------------------------------
+
+https://www.figma.com/file/FwSVT4OwiN0eEqux6laSfB/Sick-Sense?node-id=76%3A17&t=q6qgSiK2r1ojfJnH-1
