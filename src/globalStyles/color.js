@@ -1,4 +1,4 @@
-export default {
+export default colorPallete = {
     darkGreen: '#003128',
     fernGreen: '#4F772D',
     keppal: '#69AFA1',

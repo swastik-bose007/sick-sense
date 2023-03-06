@@ -1,20 +1,40 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// --------------------------------------------------------------------
+// SYSTEM COMPONENTS
+// --------------------------------------------------------------------
+import {View, TouchableWithoutFeedback, Keyboard, Text} from 'react-native';
+import React, {useState} from 'react';
+import {StatusBar, SafeAreaView} from 'react-native';
 
-export default function App() {
+// --------------------------------------------------------------------
+// STYLES
+// --------------------------------------------------------------------
+import colorTheme from './src/config/colorTheme';
+
+// --------------------------------------------------------------------
+// SCREENS
+// --------------------------------------------------------------------
+import { globalStyles } from './src/globalStyles/commonStyles';
+import { screenSize } from './src/globalStyles/commonStyles';
+
+const App = () => {
+  const StyleTypes = ['default', 'dark-content', 'light-content'];
+  const [visibleStatusBar, sentvisibleStatusBar] = useState(false);
+  const [styleStatusBar, setStyleStatusBar] = useState(StyleTypes[0]);
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+      <SafeAreaView style={[screenSize.height, screenSize.width, globalStyles.backgroundColor]}>
+        <StatusBar
+          backgroundColor={colorTheme.whiteSmoke}
+          barStyle={styleStatusBar}
+        />
+        <View>
+          <StatusBar hidden={visibleStatusBar} />
+        </View>
+      </SafeAreaView>
+    </TouchableWithoutFeedback>
     </View>
-  );
+  )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App
