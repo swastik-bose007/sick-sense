@@ -5,6 +5,7 @@ import {View, TouchableWithoutFeedback, Keyboard, Text, Image} from 'react-nativ
 import React, {useState} from 'react';
 import {StatusBar, SafeAreaView} from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
+import { useFonts } from 'expo-font';
 
 // --------------------------------------------------------------------
 // STYLES
@@ -22,6 +23,14 @@ const App = () => {
   const StyleTypes = ['default', 'dark-content', 'light-content'];
   const [visibleStatusBar, sentvisibleStatusBar] = useState(false);
   const [styleStatusBar, setStyleStatusBar] = useState(StyleTypes[0]);
+
+  let [fontsLoaded] = useFonts({
+    "sodo_sans" : require('./assets/fonts/SoDoSans-Black.ttf'),
+  });
+
+  if(!fontsLoaded){
+    return <AppLoading />;
+  }
   return (
     <View>
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
@@ -36,6 +45,7 @@ const App = () => {
         <View>
           <Image source={images.logo}></Image>
           <Ionicons name='rocket'  />
+          <Text style={{ fontFamily: "sodo_sans" }}>Sick Sense</Text>
         </View>
       </SafeAreaView>
     </TouchableWithoutFeedback>

@@ -10,17 +10,18 @@
   },
   "dependencies": {
     "@npmcli/fs": "^3.1.0",
-    "expo": "^1.0.0",
-    "expo-font": "~11.0.1",
-    "expo-status-bar": "~1.4.2",
-    "react": "18.1.0",
-    "react-native": "0.70.5",
+    "expo": "^48.0.0",
+    "expo-app-loading": "^2.1.1",
+    "expo-font": "~11.1.1",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.3",
     "source-map-url": "^0.4.1",
     "uglify-js": "^3.17.4",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.20.0"
   },
   "private": true
 }
