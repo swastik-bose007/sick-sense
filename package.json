@@ -15,6 +15,7 @@
     "expo": "^48.0.0",
     "expo-app-loading": "^2.1.1",
     "expo-font": "~11.1.1",
+    "expo-splash-screen": "~0.18.1",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
     "react-native": "0.71.3",
@@ -22,8 +23,7 @@
     "react-native-screens": "~3.20.0",
     "source-map-url": "^0.4.1",
     "uglify-js": "^3.17.4",
-    "uuid": "^9.0.0",
-    "expo-splash-screen": "~0.18.1"
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

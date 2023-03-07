@@ -25,6 +25,18 @@ export const globalStyles = StyleSheet.create({
     dim2: {
         marginTop: 5
     },
+    dim3 : {
+        marginTop: scale.scale10
+    },
+    dim4 : {
+        marginTop: scale.scale12
+    },
+    dim5 : {
+        marginTop: scale.scale13
+    },
+    dim6 : {
+        marginTop: 80
+    },
     // ------------ alignment setting-------------------------
     flexCenter : {
         display: "flex",
@@ -71,5 +83,42 @@ export const globalStyles = StyleSheet.create({
     loginPara : {
         fontFamily: "OpenSans-Light",
         fontSize: scale.scale2
+    },
+    subText : {
+        fontFamily: "OpenSans-SemiBold",
+        fontSize: scale.scale3,
+        color: colorTheme.fernGreen
+    },
+    // --------------- input styles ------------------------------
+    inputStyle : {
+        height: 61,
+        width: 350,
+        backgroundColor: colorTheme.ashGrey,
+        borderRadius: 8,
+        paddingHorizontal: 55
+    },
+    icon: {
+        position: 'absolute',
+        top: 23,
+        left: 25,
+        color: colorTheme.battleShipGrey
+    },
+    icon2: {
+        position: 'absolute',
+        top: 23,
+        right: 25,
+        color: colorTheme.battleShipGrey
+    },
+    // ----------------- button style -----------------------------
+    btnStyle : {
+        height: 61,
+        width: 350,
+        backgroundColor: colorTheme.eerieBlack,
+        borderRadius: 8
+    },
+    btnText : {
+        fontSize: scale.scale6,
+        fontFamily: "SoDoSans-Black",
+        color: colorTheme.mintCream
     }
 })

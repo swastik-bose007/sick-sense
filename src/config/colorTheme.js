@@ -7,5 +7,6 @@ export default {
     champagnePink: '#F4DAC6',
     whiteSmoke: '#F5F5F5',
     battleShipGrey: '#898989',
-    richBlack: '#13131B'
+    richBlack: '#13131B',
+    eerieBlack: '#1F2022'
 }

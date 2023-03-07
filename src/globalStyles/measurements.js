@@ -11,7 +11,7 @@ export const scale = {
     scale10: 40,
     scale11: 50,
     scale12: 60,
-    scale12: 70,
+    scale13: 70,
     scalex: 100,
     scaley: 180
 }
