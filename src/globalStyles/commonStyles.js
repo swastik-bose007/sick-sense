@@ -16,6 +16,15 @@ export const globalStyles = StyleSheet.create({
         height: "100%",
         width: "100%",
     },
+    upperSpace: {
+        marginTop: scale.scale12
+    },
+    dim1: {
+        marginTop: scale.scale7
+    },
+    dim2: {
+        marginTop: 5
+    },
     // ------------ alignment setting-------------------------
     flexCenter : {
         display: "flex",
@@ -45,10 +54,22 @@ export const globalStyles = StyleSheet.create({
         width: scale.scalex,
         height: scale.scalex
     },
+    loginImage : {
+        height: scale.scaley,
+        width: 200
+    },
     // ------------- Text styles -------------------------------
     splashText : {
         fontFamily: "SoDoSans-Regular",
         color: colorTheme.whiteSmoke,
         marginTop: scale.scale4
+    },
+    loginHeader: {
+        fontFamily: "SoDoSans-Black",
+        fontSize: scale.scale10
+    },
+    loginPara : {
+        fontFamily: "OpenSans-Light",
+        fontSize: scale.scale2
     }
 })

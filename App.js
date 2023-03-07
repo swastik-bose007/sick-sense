@@ -18,6 +18,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 // SCREENS
 // --------------------------------------------------------------------
 import SplashScreen from './src/screens/SplashScreen';
+import LoginScreen from './src/screens/LoginScreen';
 
 const App = () => {
   // ------------------------------------------------------------
@@ -38,6 +39,12 @@ const App = () => {
     "SoDoSans-SemiBold": require('./assets/fonts/SoDoSans-SemiBold.ttf'),
     "SoDoSans-Bold": require('./assets/fonts/SoDoSans-Bold.ttf'),
     "SoDoSans-Black": require('./assets/fonts/SoDoSans-Black.ttf'),
+    
+    "OpenSans-Light": require('./assets/fonts/OpenSans-Light.ttf'),
+    "OpenSans-Regular": require('./assets/fonts/OpenSans-Regular.ttf'),
+    "OpenSans-SemiBold": require('./assets/fonts/OpenSans-Semibold.ttf'),
+    "OpenSans-Bold": require('./assets/fonts/OpenSans-Bold.ttf'),
+    "OpenSans-ExtraBold": require('./assets/fonts/OpenSans-ExtraBold.ttf'),
   });
   useEffect(() => {
     async function prepare() {
@@ -61,6 +68,11 @@ const App = () => {
         <Stack.Screen
           name="SplashScreen"
           component={SplashScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="LoginScreen"
+          component={LoginScreen}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>

@@ -9,5 +9,9 @@ export const scale = {
     scale8: 32,
     scale9: 36,
     scale10: 40,
-    scalex: 100
+    scale11: 50,
+    scale12: 60,
+    scale12: 70,
+    scalex: 100,
+    scaley: 180
 }

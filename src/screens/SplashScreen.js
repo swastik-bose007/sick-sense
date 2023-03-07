@@ -2,10 +2,8 @@
 // SYSTEM COMPONENTS
 // --------------------------------------------------------------------
 import { View, TouchableWithoutFeedback, Keyboard, Text, Image } from 'react-native';
-import { StatusBar, SafeAreaView } from 'react-native';
-import Ionicons from '@expo/vector-icons/Ionicons';
-import React from 'react'
-
+import { SafeAreaView } from 'react-native';
+import React, { useEffect } from 'react';
 // --------------------------------------------------------------------
 // EXTERNAL COMPONENTS
 // --------------------------------------------------------------------
@@ -18,7 +16,18 @@ import colorTheme from '../config/colorTheme';
 import { globalStyles } from '../globalStyles/commonStyles';
 import { screenSize } from '../globalStyles/commonStyles';
 
-const SplashScreen = () => {
+const SplashScreen = ({navigation}) => {
+  console.log(('nnnn', navigation));
+    useEffect(() => {
+      splashNav();
+    }, []);
+  
+    const splashNav = () => {
+      const intervalNav = setInterval(() => {
+        navigation.replace('LoginScreen');
+        clearInterval(intervalNav);
+      }, 3000);
+    };
   return (
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       <SafeAreaView style={[ screenSize.height, screenSize.width, globalStyles.flexCenter, globalStyles.dummyView, globalStyles.bgcolor ]}>
