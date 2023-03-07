@@ -1,45 +1,41 @@
 // --------------------------------------------------------------------
 // SYSTEM COMPONENTS
 // --------------------------------------------------------------------
-import {View, TouchableWithoutFeedback, Keyboard} from 'react-native';
-import React, {useState} from 'react';
-import {StatusBar, SafeAreaView} from 'react-native';
+import { View, TouchableWithoutFeedback, Keyboard, Text, Image } from 'react-native';
+import { StatusBar, SafeAreaView } from 'react-native';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import { useFonts } from 'expo-font';
+import React from 'react'
+// import AppLoading from 'expo-app-loading';
+
+// --------------------------------------------------------------------
+// EXTERNAL COMPONENTS
+// --------------------------------------------------------------------
+import { images } from '../config/images';
 
 // --------------------------------------------------------------------
 // STYLES
 // --------------------------------------------------------------------
-
-
-// --------------------------------------------------------------------
-// IMAGES
-// --------------------------------------------------------------------
+import colorTheme from '../config/colorTheme';
 import { globalStyles } from '../globalStyles/commonStyles';
-
+import { screenSize } from '../globalStyles/commonStyles';
 
 const SplashScreen = () => {
-  console.log(('nnnn', navigation));
-    useEffect(() => {
-      splashNav();
-    }, []);
-  
-    const splashNav = () => {
-      const intervalNav = setInterval(() => {
-        navigation.replace('Login');
-        clearInterval(intervalNav);
-      }, 3000);
-    };
+  let [fontsLoaded] = useFonts({
+    "sodo_sans": require('../assets/fonts/SoDoSans-Black.ttf'),
+  });
+
+  // if(!fontsLoaded){
+  //   return <AppLoading />;
+  // }
   return (
-    <View>
-      <StatusBar
-        barStyle={'light-content'}
-        hidden={false}
-      />
-      <View style={[ globalStyles.flexCenter, globalStyles.bgsetting ]}>
-        <View style={[ globalStyles.flexCenter ]}>
-            <Image source={images.logo} style={[ globalStyles.logoimage ]}></Image>
+    <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+      <SafeAreaView>
+        <View>
+          <Text style={{ fontFamily: 'sodo_sans' }}>SplashScrnnnnnnnnnnnnnnnnnnnnneen</Text>
         </View>
-      </View>
-    </View>
+      </SafeAreaView>
+    </TouchableWithoutFeedback>
   )
 }
 

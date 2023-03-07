@@ -1,55 +1,45 @@
 // --------------------------------------------------------------------
 // SYSTEM COMPONENTS
 // --------------------------------------------------------------------
-import {View, TouchableWithoutFeedback, Keyboard, Text, Image} from 'react-native';
-import React, {useState} from 'react';
-import {StatusBar, SafeAreaView} from 'react-native';
-import Ionicons from '@expo/vector-icons/Ionicons';
-import { useFonts } from 'expo-font';
+import { View, Text } from 'react-native';
+import React, { useState } from 'react';
+
 
 // --------------------------------------------------------------------
-// STYLES
+// NAVIGATION DEPENDENCIES
 // --------------------------------------------------------------------
-import colorTheme from './src/config/colorTheme';
-import { images } from './src/globalStyles/images';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+
 
 // --------------------------------------------------------------------
 // SCREENS
 // --------------------------------------------------------------------
-import { globalStyles } from './src/globalStyles/commonStyles';
-import { screenSize } from './src/globalStyles/commonStyles';
+import SplashScreen from './src/screens/SplashScreen';
 
 const App = () => {
+  // ------------------------------------------------------------
+  // status bar color state
+  // ------------------------------------------------------------
   const StyleTypes = ['default', 'dark-content', 'light-content'];
   const [visibleStatusBar, sentvisibleStatusBar] = useState(false);
   const [styleStatusBar, setStyleStatusBar] = useState(StyleTypes[0]);
+  // ------------------------------------------------------------
+  // navigation
+  // ------------------------------------------------------------
+  const Stack = createNativeStackNavigator();
 
-  let [fontsLoaded] = useFonts({
-    "sodo_sans" : require('./assets/fonts/SoDoSans-Black.ttf'),
-  });
-
-  if(!fontsLoaded){
-    return <AppLoading />;
-  }
   return (
-    <View>
-      <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
-      <SafeAreaView style={[screenSize.height, screenSize.width, globalStyles.backgroundColor]}>
-        <StatusBar
-          backgroundColor={colorTheme.whiteSmoke}
-          barStyle={styleStatusBar}
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName='SplashScreen'>
+        <Stack.Screen
+          name="SplashScreen"
+          component={SplashScreen}
+          options={{ headerShown: false }}
         />
-        <View>
-          <StatusBar hidden={visibleStatusBar} />
-        </View>
-        <View>
-          <Image source={images.logo}></Image>
-          <Ionicons name='rocket'  />
-          <Text style={{ fontFamily: "sodo_sans" }}>Sick Sense</Text>
-        </View>
-      </SafeAreaView>
-    </TouchableWithoutFeedback>
-    </View>
+      </Stack.Navigator>
+    </NavigationContainer>
   )
 }
 
