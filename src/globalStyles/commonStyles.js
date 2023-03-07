@@ -3,6 +3,7 @@
 // --------------------------------------------------------------------
 import { Dimensions,StyleSheet } from 'react-native';
 import colorTheme from '../config/colorTheme';
+import { scale } from './measurements';
 
 export const screenSize = {
     height: Dimensions.get('window').height,
@@ -12,7 +13,7 @@ export const screenSize = {
 export const globalStyles = StyleSheet.create({
     // ----------- dimensions ----------------------------
     dummyView: {
-        height: 100,
+        height: "100%",
         width: "100%",
     },
     // ------------ alignment setting-------------------------
@@ -36,7 +37,18 @@ export const globalStyles = StyleSheet.create({
         flexDirection: "row",
         columnGap: 1
     },
-    // bgcolor : {
-        backgroundColor: colorTheme.whiteSmoke
-    // }
+    bgcolor : {
+        backgroundColor: colorTheme.darkGreen
+    },
+    // ------------- Image styles -------------------------------
+    logoimage : {
+        width: scale.scalex,
+        height: scale.scalex
+    },
+    // ------------- Text styles -------------------------------
+    splashText : {
+        fontFamily: "SoDoSans-Regular",
+        color: colorTheme.whiteSmoke,
+        marginTop: scale.scale4
+    }
 })

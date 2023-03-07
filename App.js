@@ -34,7 +34,10 @@ const App = () => {
   // fonts settings
   // --------------------------------------------------------------------
   let [fontsLoaded] = useFonts({
-    "sodo_sans": require('./assets/fonts/SoDoSans-Black.ttf'),
+    "SoDoSans-Regular": require('./assets/fonts/SoDoSans-Regular.ttf'),
+    "SoDoSans-SemiBold": require('./assets/fonts/SoDoSans-SemiBold.ttf'),
+    "SoDoSans-Bold": require('./assets/fonts/SoDoSans-Bold.ttf'),
+    "SoDoSans-Black": require('./assets/fonts/SoDoSans-Black.ttf'),
   });
   useEffect(() => {
     async function prepare() {

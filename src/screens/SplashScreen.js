@@ -21,9 +21,10 @@ import { screenSize } from '../globalStyles/commonStyles';
 const SplashScreen = () => {
   return (
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
-      <SafeAreaView>
-        <View>
-          <Text style={{ fontFamily: 'sodo_sans' }}>SplashScrnnnnnnnnnnnnnnnnnnnnneen</Text>
+      <SafeAreaView style={[ screenSize.height, screenSize.width, globalStyles.flexCenter, globalStyles.dummyView, globalStyles.bgcolor ]}>
+        <View style={[ globalStyles.flexCenter ]}>
+          <Image source={images.logo} style={globalStyles.logoimage}></Image>
+          <Text style={[ globalStyles.splashText ]}>Sick Sense</Text>
         </View>
       </SafeAreaView>
     </TouchableWithoutFeedback>
