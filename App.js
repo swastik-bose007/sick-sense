@@ -1,14 +1,16 @@
 // --------------------------------------------------------------------
 // SYSTEM COMPONENTS
 // --------------------------------------------------------------------
-import {View, TouchableWithoutFeedback, Keyboard, Text} from 'react-native';
+import {View, TouchableWithoutFeedback, Keyboard, Text, Image} from 'react-native';
 import React, {useState} from 'react';
 import {StatusBar, SafeAreaView} from 'react-native';
+import Ionicons from '@expo/vector-icons/Ionicons';
 
 // --------------------------------------------------------------------
 // STYLES
 // --------------------------------------------------------------------
 import colorTheme from './src/config/colorTheme';
+import { images } from './src/globalStyles/images';
 
 // --------------------------------------------------------------------
 // SCREENS
@@ -30,6 +32,10 @@ const App = () => {
         />
         <View>
           <StatusBar hidden={visibleStatusBar} />
+        </View>
+        <View>
+          <Image source={images.logo}></Image>
+          <Ionicons name='rocket'  />
         </View>
       </SafeAreaView>
     </TouchableWithoutFeedback>
