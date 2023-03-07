@@ -17,7 +17,7 @@ export const globalStyles = StyleSheet.create({
         width: "100%",
     },
     upperSpace: {
-        marginTop: scale.scale12
+        marginTop: 80
     },
     dim1: {
         marginTop: scale.scale7
