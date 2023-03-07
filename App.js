@@ -2,8 +2,9 @@
 // SYSTEM COMPONENTS
 // --------------------------------------------------------------------
 import { View, Text } from 'react-native';
-import React, { useState } from 'react';
-
+import React, { useState, useEffect } from 'react';
+import { useFonts } from 'expo-font';
+import * as SplScreen from 'expo-splash-screen';
 
 // --------------------------------------------------------------------
 // NAVIGATION DEPENDENCIES
@@ -29,7 +30,28 @@ const App = () => {
   // navigation
   // ------------------------------------------------------------
   const Stack = createNativeStackNavigator();
+  // --------------------------------------------------------------------
+  // fonts settings
+  // --------------------------------------------------------------------
+  let [fontsLoaded] = useFonts({
+    "sodo_sans": require('./assets/fonts/SoDoSans-Black.ttf'),
+  });
+  useEffect(() => {
+    async function prepare() {
+      await SplScreen.preventAutoHideAsync();
+    }
+    prepare();
+  }, []);
 
+  if (!fontsLoaded) {
+    return undefined;
+  }
+  else {
+    SplScreen.hideAsync();
+  }
+  // --------------------------------------------------------------------
+  // APP COMPONENTS
+  // --------------------------------------------------------------------
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName='SplashScreen'>

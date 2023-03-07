@@ -22,7 +22,8 @@
     "react-native-screens": "~3.20.0",
     "source-map-url": "^0.4.1",
     "uglify-js": "^3.17.4",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "expo-splash-screen": "~0.18.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
