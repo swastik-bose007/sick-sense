@@ -1,4 +1,4 @@
-# SICK SENSE - 👨🏻‍💻 DISEASE PREDICTION AND DOCTOR RECOMMENDATION APP
+# SICK SENSE - 👨🏻‍💻 DISEASE PREDICTION AND DOCTOR RECOMMENDATION APP 🩺
 --------------------------------------------------------------------
 
 
@@ -6,16 +6,11 @@ It is a app where user can get a logical prediction of their disease based on th
 
 
 
-# BRANDING
+# BRANDING 🍁
 --------------------------------------------------------------------
 
-## Dark Varient
+![Group 4](https://user-images.githubusercontent.com/98341839/227796045-8d3a0de5-4d5a-493c-923e-98a98f0b6aef.jpg)
 
-![image](https://user-images.githubusercontent.com/98341839/218333931-d4b8b4bf-88ec-432b-aace-32a416a2d6a3.png)
-
-## Light Varient
-
-![image](https://user-images.githubusercontent.com/98341839/218334004-1ecf448f-e720-438b-b083-ad01213d03d1.png)
 
 
 # APP UI FIGMA LINK
