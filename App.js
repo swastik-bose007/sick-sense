@@ -1,95 +1,20 @@
-// --------------------------------------------------------------------
-// SYSTEM COMPONENTS
-// --------------------------------------------------------------------
-import { View, Text } from 'react-native';
-import React, { useState, useEffect } from 'react';
-import { useFonts } from 'expo-font';
-import * as SplScreen from 'expo-splash-screen';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
 
-// --------------------------------------------------------------------
-// NAVIGATION DEPENDENCIES
-// --------------------------------------------------------------------
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
-
-
-// --------------------------------------------------------------------
-// SCREENS
-// --------------------------------------------------------------------
-import SplashScreen from './src/screens/SplashScreen';
-import LoginScreen from './src/screens/LoginScreen';
-import SignupScreen from './src/screens/SignupScreen';
-import DashboardScreen from './src/screens/DashboardScreen';
-
-const App = () => {
-  // ------------------------------------------------------------
-  // status bar color state
-  // ------------------------------------------------------------
-  const StyleTypes = ['default', 'dark-content', 'light-content'];
-  const [visibleStatusBar, sentvisibleStatusBar] = useState(false);
-  const [styleStatusBar, setStyleStatusBar] = useState(StyleTypes[0]);
-  // ------------------------------------------------------------
-  // navigation
-  // ------------------------------------------------------------
-  const Stack = createNativeStackNavigator();
-  // --------------------------------------------------------------------
-  // fonts settings
-  // --------------------------------------------------------------------
-  let [fontsLoaded] = useFonts({
-    "SoDoSans-Regular": require('./assets/fonts/SoDoSans-Regular.ttf'),
-    "SoDoSans-SemiBold": require('./assets/fonts/SoDoSans-SemiBold.ttf'),
-    "SoDoSans-Bold": require('./assets/fonts/SoDoSans-Bold.ttf'),
-    "SoDoSans-Black": require('./assets/fonts/SoDoSans-Black.ttf'),
-    
-    "OpenSans-Light": require('./assets/fonts/OpenSans-Light.ttf'),
-    "OpenSans-Regular": require('./assets/fonts/OpenSans-Regular.ttf'),
-    "OpenSans-SemiBold": require('./assets/fonts/OpenSans-Semibold.ttf'),
-    "OpenSans-Bold": require('./assets/fonts/OpenSans-Bold.ttf'),
-    "OpenSans-ExtraBold": require('./assets/fonts/OpenSans-ExtraBold.ttf'),
-  });
-  useEffect(() => {
-    async function prepare() {
-      await SplScreen.preventAutoHideAsync();
-    }
-    prepare();
-  }, []);
-
-  if (!fontsLoaded) {
-    return undefined;
-  }
-  else {
-    SplScreen.hideAsync();
-  }
-  // --------------------------------------------------------------------
-  // APP COMPONENTS
-  // --------------------------------------------------------------------
+export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName='SplashScreen'>
-        <Stack.Screen
-          name="SplashScreen"
-          component={SplashScreen}
-          options={{ headerShown: false }}
-        />
-        <Stack.Screen
-          name="LoginScreen"
-          component={LoginScreen}
-          options={{ headerShown: false }}
-        />
-        <Stack.Screen
-          name="SignupScreen"
-          component={SignupScreen}
-          options={{ headerShown: false }}
-        />
-        <Stack.Screen
-          name="DashboardScreen"
-          component={DashboardScreen}
-          options={{ headerShown: false }}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
-  )
+    <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto" />
+    </View>
+  );
 }
 
-export default App
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
