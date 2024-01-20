@@ -14,5 +14,15 @@ export const textStyles = StyleSheet.create({
         color: "#E8FAF4",
         fontFamily: "SoDoSans-Black",
         fontSize: responsiveScreenFontSize(3.5)
-    }
+    },
+    loginTxt2: {
+        color: "#E8FAF4",
+        fontFamily: "SoDoSans-Black",
+        fontSize: responsiveScreenFontSize(3.5)
+    },
+    signupTxt2: {
+        color: "#E8FAF4",
+        fontFamily: "SoDoSans-Black",
+        // fontSize: responsiveScreenFontSize(3.5)
+    },
 })

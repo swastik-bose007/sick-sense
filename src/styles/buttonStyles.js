@@ -20,5 +20,11 @@ export const buttonStyles = StyleSheet.create({
         height: responsiveScreenHeight(6.5),
         width: responsiveScreenWidth(90),
         borderRadius: responsiveScreenWidth(2)
-    }
+    },
+    loginBtn2: {
+        backgroundColor: "#1F2022",
+        height: responsiveScreenHeight(6.5),
+        width: responsiveScreenWidth(90),
+        borderRadius: responsiveScreenWidth(2)
+    },
 })
