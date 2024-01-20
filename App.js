@@ -12,15 +12,15 @@ const App = () => {
   
   let [fontsLoaded] = useFonts({
     "SoDoSans-Regular": require('./assets/fonts/SoDoSans-Regular.ttf'),
-    "SoDoSans-SemiBold": require('./src/assets/fonts/SoDoSans-SemiBold.ttf'),
-    "SoDoSans-Bold": require('./src/assets/fonts/SoDoSans-Bold.ttf'),
+    "SoDoSans-SemiBold": require('./assets/fonts/SoDoSans-SemiBold.ttf'),
+    "SoDoSans-Bold": require('./assets/fonts/SoDoSans-Bold.ttf'),
     "SoDoSans-Black": require('./assets/fonts/SoDoSans-Black.ttf'),
 
-    "OpenSans-Light": require('./src/assets/fonts/OpenSans-Light.ttf'),
-    "OpenSans-Regular": require('./src/assets/fonts/OpenSans-Regular.ttf'),
-    "OpenSans-SemiBold": require('./src/assets/fonts/OpenSans-Semibold.ttf'),
-    "OpenSans-Bold": require('./src/assets/fonts/OpenSans-Bold.ttf'),
-    "OpenSans-ExtraBold": require('./src/assets/fonts/OpenSans-ExtraBold.ttf'),
+    "OpenSans-Light": require('./assets/fonts/OpenSans-Light.ttf'),
+    "OpenSans-Regular": require('./assets/fonts/OpenSans-Regular.ttf'),
+    "OpenSans-SemiBold": require('./assets/fonts/OpenSans-Semibold.ttf'),
+    "OpenSans-Bold": require('./assets/fonts/OpenSans-Bold.ttf'),
+    "OpenSans-ExtraBold": require('./assets/fonts/OpenSans-ExtraBold.ttf'),
   });
 
   useEffect(() => {
