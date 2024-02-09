@@ -62,7 +62,7 @@ const LoginScreen = ({ navigation }) => {
         <View className='h-[20%] w-full flex justify-center items-center '>
           
 
-          <TouchableOpacity onPress={() => navigation.navigate('LoginScreen')}>
+          <TouchableOpacity onPress={() => navigation.navigate('DashboardScreen')}>
             <View style={[buttonStyles.loginBtn2]} className='flex justify-center items-center'>
               <Text style={[textStyles.loginTxt2]}>LOGIN</Text>
             </View>
