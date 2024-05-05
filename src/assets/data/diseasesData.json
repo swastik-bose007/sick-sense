@@ -1,0 +1,903 @@
+{
+  "diseases": [
+    {
+      "name": "Acne",
+      "symptoms": [
+        "Papules",
+        "Pustules",
+        "Whiteheads",
+        "Blackheads",
+        "Inflammation",
+        "Cysts",
+        "Nodules",
+        "Redness",
+        "Scarring",
+        "Itching"
+      ],
+      "remedies": [
+        "Keep your face clean by washing it twice daily with a gentle cleanser.",
+        "Use oil-free skincare products to avoid clogging pores.",
+        "Avoid touching your face with dirty hands to prevent bacteria transfer.",
+        "Use non-comedogenic makeup and sunscreen.",
+        "Keep your hair clean and away from your face, especially if it's oily.",
+        "Avoid excessive sun exposure and use non-comedogenic sunscreen.",
+        "Eat a balanced diet with plenty of fruits, vegetables, and water.",
+        "Limit sugary and greasy foods, which can exacerbate acne.",
+        "Try over-the-counter acne treatments containing ingredients like benzoyl peroxide or salicylic acid.",
+        "Manage stress through relaxation techniques like yoga or meditation.",
+        "Consider seeing a dermatologist for personalized treatment options if acne persists."
+      ]
+    },
+    {
+      "name": "AIDS",
+      "symptoms": [
+        "Rapid weight loss",
+        "Fever",
+        "Chills",
+        "Night sweats",
+        "Swollen lymph nodes",
+        "Fatigue",
+        "Diarrhea",
+        "Nausea",
+        "Vomiting",
+        "Joint pain"
+      ],
+      "remedies":  [
+        "Adhering to antiretroviral therapy (ART) as prescribed by healthcare providers.",
+        "Regularly monitoring viral load and CD4 cell count through blood tests.",
+        "Maintaining a healthy lifestyle with balanced nutrition and regular exercise.",
+        "Practicing safer sex by using condoms to prevent transmission of HIV.",
+        "Avoiding sharing needles or other injection equipment if injecting drugs.",
+        "Seeking mental health support and counseling to cope with emotional challenges.",
+        "Participating in support groups and community organizations for people living with HIV/AIDS.",
+        "Getting vaccinated against other infections to prevent additional health complications.",
+        "Avoiding smoking, excessive alcohol consumption, and illicit drug use.",
+        "Educating oneself and others about HIV/AIDS to reduce stigma and discrimination."
+      ]
+    },
+    {
+      "name": "Alcoholic hepatitis",
+      "symptoms": [
+        "Jaundice",
+        "Abdominal pain",
+        "Nausea",
+        "Vomiting",
+        "Fatigue",
+        "Loss of appetite",
+        "Swelling in abdomen",
+        "Fever",
+        "Confusion",
+        "Bruising easily"
+      ],
+      "remedies": [
+        "Abstain from alcohol completely to prevent further liver damage.",
+        "Seek medical help for detoxification and withdrawal management if necessary.",
+        "Follow a balanced diet rich in fruits, vegetables, lean proteins, and whole grains.",
+        "Avoid foods high in fat, salt, and sugar, as well as processed and fried foods.",
+        "Stay hydrated by drinking plenty of water and avoiding excessive caffeine.",
+        "Take prescribed medications as directed by healthcare providers, which may include corticosteroids or other anti-inflammatory drugs.",
+        "Attend support groups or counseling sessions to address alcohol dependence and promote sobriety.",
+        "Get vaccinated against hepatitis A and hepatitis B to prevent additional liver infections.",
+        "Monitor liver function through regular check-ups and blood tests.",
+        "Consider liver transplantation in severe cases where other treatments have failed.",
+        "Manage any underlying conditions such as obesity, diabetes, or high cholesterol."
+      ]
+    },
+    {
+      "name": "Allergy",
+      "symptoms": [
+        "Sneezing",
+        "Runny or stuffy nose",
+        "Itchy or watery eyes",
+        "Itchy throat or ears",
+        "Coughing",
+        "Fatigue",
+        "Rash",
+        "Shortness of breath",
+        "Swelling",
+        "Nausea"
+      ],
+      "remedies":[
+        "Identify and avoid allergens that trigger your allergic reactions.",
+        "Keep windows closed during high pollen seasons and use air purifiers indoors.",
+        "Wash bedding and clothes frequently in hot water to remove allergens.",
+        "Use allergen-proof covers for pillows and mattresses.",
+        "Keep pets out of the bedroom and off furniture to reduce exposure to pet dander.",
+        "Use saline nasal rinses to clear nasal passages of allergens.",
+        "Take over-the-counter antihistamines or decongestants to relieve symptoms.",
+        "Consider prescription medications such as corticosteroids or leukotriene inhibitors for more severe allergies.",
+        "Use allergy shots (immunotherapy) to desensitize the immune system to specific allergens over time.",
+        "Try alternative therapies like acupuncture or herbal supplements under the guidance of a healthcare professional.",
+        "Keep an allergy diary to track symptoms and identify patterns of allergen exposure.",
+        "Seek emergency medical help if experiencing severe allergic reactions like anaphylaxis."
+      ]
+    },
+    {
+      "name": "Arthritis",
+      "symptoms": [
+        "Joint pain",
+        "Joint swelling",
+        "Joint stiffness",
+        "Redness around joints",
+        "Warmth at the joint",
+        "Fatigue",
+        "Muscle aches",
+        "Decreased range of motion",
+        "Joint deformity",
+        "Fever"
+      ],
+      "remedies": [
+        "Maintain a healthy weight to reduce stress on joints.",
+        "Stay physically active with low-impact exercises like swimming or cycling.",
+        "Apply hot or cold packs to relieve pain and inflammation.",
+        "Take over-the-counter pain relievers or anti-inflammatory medications.",
+        "Consider physical therapy or occupational therapy for joint mobility and function."
+      ]
+    },
+    {
+      "name": "Bronchial Asthma",
+      "symptoms": [
+        "Shortness of breath",
+        "Coughing",
+        "Wheezing",
+        "Chest tightness",
+        "Difficulty breathing",
+        "Fatigue",
+        "Trouble sleeping",
+        "Rapid breathing",
+        "Anxiety",
+        "Blue lips or face"
+      ],
+      "remedies": [
+        "Identify and avoid triggers such as allergens, smoke, or exercise-induced factors.",
+        "Use prescribed inhalers or medications as directed by a healthcare provider.",
+        "Practice breathing exercises and relaxation techniques.",
+        "Keep indoor air clean with air purifiers and regular cleaning.",
+        "Seek emergency medical help if experiencing severe asthma attacks."
+      ]
+    },
+    {
+      "name": "Cervical spondylosis",
+      "symptoms": [
+        "Neck pain",
+        "Stiffness",
+        "Headache",
+        "Numbness or tingling",
+        "Weakness",
+        "Difficulty walking",
+        "Muscle spasms",
+        "Blurred vision",
+        "Dizziness",
+        "Loss of bowel or bladder control"
+      ],
+      "remedies": [
+        "Practice good posture and ergonomics to reduce strain on the neck and spine.",
+        "Use neck supports or cervical collars for pain relief and support.",
+        "Do gentle neck exercises and stretches to improve flexibility.",
+        "Apply heat or cold packs to alleviate muscle spasms and pain.",
+        "Consider physical therapy or chiropractic care for symptom management."
+      ]
+    },
+    {
+      "name": "Chickenpox",
+      "symptoms": [
+        "Itchy rash",
+        "Fever",
+        "Fatigue",
+        "Headache",
+        "Loss of appetite",
+        "Sore throat",
+        "Red spots on the skin",
+        "Blisters filled with fluid",
+        "Muscle pain",
+        "Irritability"
+      ],
+      "remedies": [
+        "Get plenty of rest and stay hydrated.",
+        "Take over-the-counter medications to relieve itching and fever.",
+        "Apply calamine lotion or oatmeal baths to soothe skin rashes.",
+        "Avoid scratching to prevent infection and scarring.",
+        "Isolate yourself to prevent spreading the virus to others."
+      ]
+    },
+    {
+      "name": "Chronic cholestasis",
+      "symptoms": [
+        "Itching",
+        "Yellowing of skin and eyes",
+        "Pale-colored stools",
+        "Dark urine",
+        "Abdominal pain",
+        "Fatigue",
+        "Loss of appetite",
+        "Weight loss",
+        "Easy bruising",
+        "Swelling in the abdomen"
+      ],
+      "remedies": [
+        "Follow a low-fat diet to reduce bile production and ease symptoms.",
+        "Take medications as prescribed to relieve itching and improve liver function.",
+        "Consider procedures like endoscopic retrograde cholangiopancreatography (ERCP) or surgery in severe cases.",
+        "Monitor liver function through regular check-ups and blood tests.",
+        "Seek support from healthcare providers or support groups for managing the condition."
+      ]
+    },
+    {
+      "name": "Common Cold",
+      "symptoms": [
+        "Runny nose",
+        "Sneezing",
+        "Cough",
+        "Sore throat",
+        "Watery eyes",
+        "Fatigue",
+        "Headache",
+        "Mild fever",
+        "Body aches",
+        "Loss of appetite"
+      ],
+      "remedies": [
+        "Get plenty of rest and stay hydrated.",
+        "Use over-the-counter cold medications to relieve symptoms like congestion and fever.",
+        "Gargle with salt water to soothe a sore throat.",
+        "Drink warm liquids like tea or broth to ease congestion.",
+        "Practice good hand hygiene to prevent spreading the cold virus."
+      ]
+    },
+    {
+      "name": "Dengue",
+      "symptoms": [
+        "High fever",
+        "Severe headache",
+        "Pain behind the eyes",
+        "Joint and muscle pain",
+        "Nausea",
+        "Vomiting",
+        "Skin rash",
+        "Mild bleeding (nose or gums)",
+        "Fatigue",
+        "Decreased platelet count"
+      ],
+      "remedies": [
+        "Stay hydrated by drinking plenty of fluids.",
+        "Take over-the-counter pain relievers to reduce fever and pain.",
+        "Get plenty of rest and avoid strenuous activities.",
+        "Monitor for warning signs of severe dengue and seek medical help if necessary.",
+        "Prevent mosquito bites by using insect repellent and wearing protective clothing."
+      ]
+    },
+    {
+      "name": "Diabetes",
+      "symptoms": [
+        "Increased thirst",
+        "Frequent urination",
+        "Extreme hunger",
+        "Unexplained weight loss",
+        "Fatigue",
+        "Blurred vision",
+        "Slow-healing sores",
+        "Frequent infections",
+        "Tingling or numbness in hands and feet",
+        "Irritability"
+      ],
+      "remedies": [
+        "Follow a healthy diet plan with balanced carbohydrates, proteins, and fats.",
+        "Monitor blood sugar levels regularly and adjust insulin or medication doses as needed.",
+        "Engage in regular physical activity to improve insulin sensitivity.",
+        "Maintain a healthy weight to reduce risk factors associated with diabetes.",
+        "Attend regular check-ups and screenings with healthcare providers."
+      ]
+    },
+    {
+      "name": "Hemorrhoids (Piles)",
+      "symptoms": [
+        "Bleeding during bowel movements",
+        "Pain or discomfort",
+        "Swelling around the anus",
+        "Itching",
+        "Irritation",
+        "Lump near the anus",
+        "Mucus discharge",
+        "Difficulty sitting",
+        "Painful bowel movements",
+        "Redness"
+      ],
+      "remedies": [
+        "Eat fiber-rich foods and drink plenty of water to prevent constipation.",
+        "Take over-the-counter pain relievers or topical creams to reduce pain and swelling.",
+        "Use sitz baths or warm water soaks to soothe the affected area.",
+        "Avoid straining during bowel movements and use soft toilet paper.",
+        "Consider procedures like rubber band ligation or surgery for severe hemorrhoids."
+      ]
+    },
+    {
+      "name": "Drug Reaction",
+      "symptoms": [
+        "Skin rash",
+        "Itching",
+        "Swelling",
+        "Fever",
+        "Joint pain",
+        "Nausea",
+        "Vomiting",
+        "Shortness of breath",
+        "Blistering",
+        "Dizziness"
+      ],
+      "remedies": [
+        "Stop taking the medication immediately if experiencing adverse reactions.",
+        "Seek medical help or contact a healthcare provider for guidance.",
+        "Take over-the-counter antihistamines to relieve symptoms like itching or rash.",
+        "Inform healthcare providers about any known drug allergies or reactions.",
+        "Avoid the triggering medication and seek alternative treatments if necessary."
+      ]
+    },
+    {
+      "name": "Fungal Infection",
+      "symptoms": [
+        "Itching",
+        "Redness",
+        "Rash",
+        "Peeling skin",
+        "Burning sensation",
+        "Cracking or bleeding skin",
+        "Swelling",
+        "White patches",
+        "Yellow or brown nails",
+        "Hair loss"
+      ],
+      "remedies": [
+        "Keep the affected area clean and dry.",
+        "Apply over-the-counter antifungal creams or powders.",
+        "Wear loose-fitting clothing to allow airflow to the affected area.",
+        "Avoid sharing personal items like towels or clothing.",
+        "Seek medical help for persistent or severe fungal infections."
+      ]
+    },
+    {
+      "name": "Gastroenteritis",
+      "symptoms": [
+        "Diarrhea",
+        "Nausea",
+        "Vomiting",
+        "Abdominal cramps",
+        "Fever",
+        "Headache",
+        "Muscle aches",
+        "Dehydration",
+        "Loss of appetite",
+        "Bloody stools"
+      ],
+      "remedies": [
+        "Stay hydrated by drinking clear fluids like water, broth, or electrolyte solutions.",
+        "Eat bland, easy-to-digest foods like rice, bananas, or toast.",
+        "Avoid dairy, caffeine, alcohol, and spicy foods until symptoms improve.",
+        "Practice good hand hygiene to prevent spreading the infection.",
+        "Seek medical help if symptoms worsen or persist for more than a few days."
+      ]
+    },
+    {
+      "name": "GERD (Gastroesophageal Reflux Disease)",
+      "symptoms": [
+        "Heartburn",
+        "Regurgitation",
+        "Chest pain",
+        "Difficulty swallowing",
+        "Coughing",
+        "Sore throat",
+        "Hoarseness",
+        "Feeling of a lump in the throat",
+        "Wheezing",
+        "Nausea"
+      ],
+      "remedies": [
+        "Avoid trigger foods like spicy, acidic, or fatty foods.",
+        "Eat smaller, more frequent meals and avoid lying down immediately after eating.",
+        "Raise the head of the bed to prevent acid reflux while sleeping.",
+        "Take over-the-counter antacids or medications to reduce stomach acid production.",
+        "Consider lifestyle changes like weight loss or quitting smoking."
+      ]
+    },
+    {
+      "name": "Heart Attack",
+      "symptoms": [
+        "Chest pain or discomfort",
+        "Upper body pain or discomfort",
+        "Shortness of breath",
+        "Cold sweat",
+        "Nausea",
+        "Light-headedness",
+        "Fatigue",
+        "Anxiety",
+        "Indigestion",
+        "Back pain"
+      ],
+      "remedies": [
+        "Call emergency services immediately if experiencing symptoms like chest pain, shortness of breath, or nausea.",
+        "Chew aspirin if prescribed by a healthcare provider to help prevent blood clots.",
+        "Stay calm and lie down while waiting for emergency medical help to arrive.",
+        "Follow medical advice and treatment plans provided by healthcare providers.",
+        "Attend cardiac rehabilitation programs for long-term recovery and prevention."
+      ]
+    },
+    {
+      "name": "Hepatitis A",
+      "symptoms": [
+        "Fatigue",
+        "Nausea",
+        "Vomiting",
+        "Abdominal pain",
+        "Dark urine",
+        "Jaundice",
+        "Loss of appetite",
+        "Joint pain",
+        "Fever"
+      ],
+      "remedies": [
+        "Practice good hygiene by washing hands thoroughly with soap and water.",
+        "Get vaccinated against hepatitis A to prevent infection.",
+        "Avoid consuming contaminated food or water, especially when traveling.",
+        "Seek medical help for symptoms like jaundice, fatigue, or abdominal pain.",
+        "Practice safe sex and avoid sharing needles to prevent transmission."
+      ]
+    },
+    {
+      "name": "Hepatitis B",
+      "symptoms": [
+        "Fatigue",
+        "Abdominal pain",
+        "Dark urine",
+        "Clay-colored stools",
+        "Jaundice",
+        "Joint pain",
+        "Fever",
+        "Nausea",
+        "Vomiting"
+      ],
+      "remedies": [
+        "Get vaccinated against hepatitis B to prevent infection.",
+        "Practice safe sex by using condoms and avoid sharing needles.",
+        "Get tested for hepatitis B and seek medical help for treatment if infected.",
+        "Inform healthcare providers about hepatitis B status for medical procedures.",
+        "Avoid sharing personal items like toothbrushes or razors."
+      ]
+    },
+    {
+      "name": "Hepatitis C",
+      "symptoms": [
+        "Fatigue",
+        "Abdominal pain",
+        "Dark urine",
+        "Clay-colored stools",
+        "Jaundice",
+        "Loss of appetite",
+        "Fever",
+        "Nausea",
+        "Vomiting"
+      ],
+      "remedies": [
+        "Get tested for hepatitis C and seek medical help for treatment if infected.",
+        "Practice safe sex by using condoms and avoid sharing needles.",
+        "Avoid sharing personal items like toothbrushes or razors.",
+        "Follow prescribed treatment plans and attend regular check-ups with healthcare providers.",
+        "Inform healthcare providers about hepatitis C status for medical procedures."
+      ]
+    },
+    {
+      "name": "Hepatitis D",
+      "symptoms": [
+        "Abdominal pain",
+        "Dark urine",
+        "Clay-colored stools",
+        "Jaundice",
+        "Loss of appetite",
+        "Joint pain",
+        "Fever",
+        "Nausea",
+        "Vomiting"
+      ],
+      "remedies": [
+        "Get vaccinated against hepatitis B to prevent hepatitis D infection.",
+        "Avoid sharing needles or engaging in high-risk behaviors.",
+        "Seek medical help for treatment if infected with hepatitis D.",
+        "Follow prescribed treatment plans and attend regular check-ups with healthcare providers.",
+        "Inform healthcare providers about hepatitis D status for medical procedures."
+      ]
+    },
+    {
+      "name": "Hepatitis E",
+      "symptoms": [
+        "Fatigue",
+        "Abdominal pain",
+        "Dark urine",
+        "Clay-colored stools",
+        "Jaundice",
+        "Loss of appetite",
+        "Joint pain",
+        "Fever",
+        "Vomiting"
+      ],
+      "remedies": [
+        "Practice good hygiene by washing hands thoroughly with soap and water.",
+        "Avoid consuming contaminated food or water, especially when traveling.",
+        "Seek medical help for symptoms like jaundice, fatigue, or abdominal pain.",
+        "Get vaccinated against hepatitis E if traveling to high-risk areas.",
+        "Practice safe sex and avoid sharing needles to prevent transmission."
+      ]
+    },
+    {
+      "name": "Hypertension (High Blood Pressure)",
+      "symptoms": [
+        "High blood pressure",
+        "Headache",
+        "Dizziness",
+        "Blurred vision",
+        "Chest pain",
+        "Shortness of breath",
+        "Fatigue",
+        "Irregular heartbeat",
+        "Nausea",
+        "Nosebleeds"
+      ],
+      "remedies": [
+        "Follow a heart-healthy diet rich in fruits, vegetables, and whole grains.",
+        "Limit salt intake and avoid processed foods high in sodium.",
+        "Engage in regular physical activity to lower blood pressure.",
+        "Maintain a healthy weight and manage stress through relaxation techniques.",
+        "Take prescribed medications as directed by healthcare providers."
+      ]
+    },
+    {
+      "name": "Hyperthyroidism",
+      "symptoms": [
+        "Weight loss",
+        "Increased appetite",
+        "Irregular heartbeat",
+        "Nervousness",
+        "Tremors",
+        "Sweating",
+        "Fatigue",
+        "Muscle weakness",
+        "Difficulty sleeping",
+        "Heat intolerance"
+      ],
+      "remedies": [
+        "Take prescribed medications to control thyroid hormone levels.",
+        "Follow a balanced diet with iodine-rich foods like seafood and dairy products.",
+        "Avoid stimulants like caffeine and manage stress through relaxation techniques.",
+        "Attend regular check-ups and blood tests to monitor thyroid function.",
+        "Consider radioactive iodine therapy or thyroid surgery in severe cases."
+      ]
+    },
+    {
+      "name": "Hypoglycemia (Low Blood Sugar)",
+      "symptoms": [
+        "Shakiness",
+        "Sweating",
+        "Irritability",
+        "Rapid heartbeat",
+        "Confusion",
+        "Fatigue",
+        "Headache",
+        "Blurred vision",
+        "Difficulty concentrating",
+        "Hunger"
+      ],
+      "remedies": [
+        "Eat or drink something with fast-acting carbohydrates like juice or candy.",
+        "Check blood sugar levels regularly and carry snacks for emergencies.",
+        "Follow a balanced diet with regular meals and snacks throughout the day.",
+        "Avoid excessive alcohol consumption, especially on an empty stomach.",
+        "Seek medical help if experiencing severe or recurrent hypoglycemia."
+      ]
+    },
+    {
+      "name": "Hypothyroidism",
+      "symptoms": [
+        "Fatigue",
+        "Weight gain",
+        "Cold intolerance",
+        "Dry skin",
+        "Hair loss",
+        "Muscle aches",
+        "Constipation",
+        "Depression",
+        "Joint pain",
+        "Memory problems"
+      ],
+      "remedies": [
+        "Take prescribed thyroid hormone replacement medication as directed by a healthcare provider.",
+        "Follow a balanced diet with iodine-rich foods like seafood and dairy products.",
+        "Engage in regular physical activity to boost metabolism and energy levels.",
+        "Attend regular check-ups and blood tests to monitor thyroid function.",
+        "Manage stress through relaxation techniques and adequate sleep."
+      ]
+    },
+    {
+      "name": "Impetigo",
+      "symptoms": [
+        "Red sores",
+        "Blisters",
+        "Itching",
+        "Oozing or fluid-filled blisters",
+        "Honey-colored crusts",
+        "Swollen lymph nodes",
+        "Fever",
+        "Pain or tenderness",
+        "Skin lesions",
+        "Rash"
+      ],
+      "remedies": [
+        "Keep the affected area clean and dry.",
+        "Apply over-the-counter antibiotic ointments or creams.",
+        "Avoid scratching or picking at sores to prevent spreading the infection.",
+        "Cover sores with bandages to protect them from bacteria.",
+        "Seek medical help for severe or persistent cases of impetigo."
+      ]
+    },
+    {
+      "name": "Jaundice",
+      "symptoms": [
+        "Yellowing of skin and eyes",
+        "Dark urine",
+        "Clay-colored stools",
+        "Abdominal pain",
+        "Fever",
+        "Fatigue",
+        "Nausea",
+        "Vomiting",
+        "Loss of appetite",
+        "Itching"
+      ],
+      "remedies": [
+        "Get plenty of rest and stay hydrated.",
+        "Eat a balanced diet with foods rich in antioxidants and liver-supportive nutrients.",
+        "Avoid alcohol and medications that can further stress the liver.",
+        "Take prescribed medications as directed by healthcare providers.",
+        "Seek medical help for underlying causes of jaundice, such as liver disease."
+      ]
+    },
+    {
+      "name": "Malaria",
+      "symptoms": [
+        "Fever",
+        "Chills",
+        "Sweating",
+        "Headache",
+        "Nausea",
+        "Vomiting",
+        "Muscle pain",
+        "Fatigue",
+        "Abdominal pain",
+        "Diarrhea"
+      ],
+      "remedies": [
+        "Take prescribed antimalarial medications before, during, and after travel to malaria-endemic areas.",
+        "Use insect repellents and bed nets to prevent mosquito bites.",
+        "Seek medical help promptly if experiencing symptoms like fever, chills, or flu-like illness.",
+        "Follow prescribed treatment plans and complete the full course of medications.",
+        "Stay informed about malaria risks and prevention strategies when traveling."
+      ]
+    },
+    {
+      "name": "Migraine",
+      "symptoms": [
+        "Severe headache",
+        "Throbbing pain",
+        "Nausea",
+        "Vomiting",
+        "Sensitivity to light",
+        "Sensitivity to sound",
+        "Visual disturbances",
+        "Dizziness",
+        "Fatigue",
+        "Irritability"
+      ],
+      "remedies": [
+        "Identify and avoid triggers such as certain foods, stress, or lack of sleep.",
+        "Take prescribed migraine medications as directed by a healthcare provider.",
+        "Apply cold packs to the forehead or neck to alleviate pain and nausea.",
+        "Practice relaxation techniques like deep breathing or meditation.",
+        "Maintain a regular sleep schedule and stay hydrated."
+      ]
+    },
+    {
+      "name": "Osteoarthritis",
+      "symptoms": [
+        "Joint pain",
+        "Joint stiffness",
+        "Swelling",
+        "Creaking or grating sensation",
+        "Decreased range of motion",
+        "Tenderness",
+        "Bone spurs",
+        "Muscle weakness",
+        "Cracking sound in joints",
+        "Loss of flexibility"
+      ],
+      "remedies":[
+        "Maintain a healthy weight to reduce stress on joints.",
+        "Engage in regular physical activity to improve joint flexibility and strength.",
+        "Use over-the-counter pain relievers or topical creams to alleviate pain.",
+        "Consider physical therapy or occupational therapy for joint mobility and function.",
+        "Use assistive devices like braces or canes for support if needed."
+      ]
+    },
+    {
+      "name": "Paralysis (brain hemorrhage)",
+      "symptoms": [
+        "Sudden numbness",
+        "Weakness",
+        "Confusion",
+        "Trouble speaking or understanding speech",
+        "Severe headache",
+        "Loss of coordination",
+        "Dizziness",
+        "Blurred vision",
+        "Difficulty swallowing",
+        "Loss of consciousness"
+      ],
+      "remedies": [
+        "Seek emergency medical help immediately.",
+        "Follow medical advice and treatment plans provided by healthcare providers.",
+        "Attend rehabilitation programs for physical and occupational therapy.",
+        "Provide emotional support and encouragement to the individual and their caregivers.",
+        "Make necessary accommodations for mobility and accessibility."
+      ]
+    },
+    {
+      "name": "Peptic Ulcer Disease",
+      "symptoms": [
+        "Abdominal pain",
+        "Bloating",
+        "Heartburn",
+        "Nausea",
+        "Vomiting",
+        "Loss of appetite",
+        "Weight loss",
+        "Bloody or dark stools",
+        "Feeling of fullness",
+        "Burping"
+      ],
+      "remedies": [
+        "Avoid trigger foods like spicy or acidic foods that can irritate the stomach lining.",
+        "Take prescribed medications such as proton pump inhibitors or H2 blockers to reduce stomach acid production.",
+        "Avoid nonsteroidal anti-inflammatory drugs (NSAIDs) that can worsen ulcers.",
+        "Quit smoking and limit alcohol consumption.",
+        "Follow a balanced diet with regular meals and snacks."
+      ]
+    },
+    {
+      "name": "Pneumonia",
+      "symptoms": [
+        "High fever",
+        "Chest pain",
+        "Cough with phlegm",
+        "Shortness of breath",
+        "Fatigue",
+        "Rapid breathing",
+        "Confusion",
+        "Blue lips or face",
+        "Headache",
+        "Muscle aches"
+      ],
+      "remedies": [
+        "Take prescribed antibiotics as directed by a healthcare provider.",
+        "Get plenty of rest and stay hydrated.",
+        "Use over-the-counter medications to relieve fever, cough, and congestion.",
+        "Practice good respiratory hygiene by covering mouth and nose when coughing or sneezing.",
+        "Attend follow-up appointments for monitoring and treatment evaluation."
+      ]
+    },
+    {
+      "name": "Psoriasis",
+      "symptoms": [
+        "Red patches of skin",
+        "Silvery scales",
+        "Itching",
+        "Burning or soreness",
+        "Thickened or ridged nails",
+        "Swollen joints",
+        "Dry, cracked skin",
+        "Bleeding skin",
+        "Stiff joints",
+        "Painful joints"
+      ],
+      "remedies": [
+        "Moisturize skin regularly to reduce dryness and itching.",
+        "Take prescribed medications as directed by a healthcare provider, such as topical creams or oral medications.",
+        "Expose skin to sunlight in moderation to help improve symptoms.",
+        "Avoid triggers like stress, smoking, and excessive alcohol consumption.",
+        "Attend regular check-ups with dermatologists for monitoring and treatment adjustments."
+      ]
+    },
+    {
+      "name": "Tuberculosis",
+      "symptoms": [
+        "Cough that lasts for weeks",
+        "Coughing up blood",
+        "Chest pain",
+        "Weakness or fatigue",
+        "Weight loss",
+        "Loss of appetite",
+        "Fever",
+        "Night sweats",
+        "Chills",
+        "Shortness of breath"
+      ],
+      "remedies": [
+        "Take prescribed antibiotics for the full duration of treatment as directed by a healthcare provider.",
+        "Stay isolated from others until no longer contagious.",
+        "Cover mouth and nose with a tissue or mask when coughing or sneezing.",
+        "Practice good hygiene by washing hands frequently and avoiding close contact with others.",
+        "Attend follow-up appointments for monitoring and treatment evaluation."
+      ]
+    },
+    {
+      "name": "Typhoid",
+      "symptoms": [
+        "High fever",
+        "Abdominal pain",
+        "Headache",
+        "Weakness",
+        "Fatigue",
+        "Diarrhea",
+        "Constipation",
+        "Rash",
+        "Rose spots on abdomen",
+        "Muscle aches"
+      ],
+      "remedies": [
+        "Take prescribed antibiotics as directed by a healthcare provider.",
+        "Stay hydrated by drinking clean water and electrolyte solutions.",
+        "Eat bland, easy-to-digest foods like rice, bananas, or toast.",
+        "Practice good hygiene by washing hands thoroughly and avoiding contaminated food or water.",
+        "Attend follow-up appointments and screenings for monitoring and prevention."
+      ]
+    },
+    {
+      "name": "Urinary Tract Infection",
+      "symptoms": [
+        "Frequent urination",
+        "Burning sensation during urination",
+        "Cloudy or strong-smelling urine",
+        "Pelvic pain",
+        "Rectal pain (men)",
+        "Abdominal pain",
+        "Fever",
+        "Blood in urine",
+        "Urgency to urinate",
+        "Back pain"
+      ],
+      "remedies": [
+        "Drink plenty of water to flush out bacteria from the urinary tract.",
+        "Take prescribed antibiotics as directed by a healthcare provider.",
+        "Avoid irritants like caffeine, alcohol, and spicy foods.",
+        "Practice good hygiene by wiping from front to back and urinating after intercourse.",
+        "Seek medical help if symptoms worsen or persist despite treatment."
+      ]
+    },
+    {
+      "name": "Varicose Veins",
+      "symptoms": [
+        "Veins that are dark purple or blue",
+        "Veins that appear twisted or bulging",
+        "Aching or pain in the legs",
+        "Burning or throbbing in the legs",
+        "Muscle cramping",
+        "Swelling in the lower legs",
+        "Itching around one or more veins",
+        "Skin discoloration around a varicose vein",
+        "Ulcers near the ankle",
+        "Restless legs"
+      ],
+      "remedies": [
+        "Elevate legs above heart level to reduce swelling and improve circulation.",
+        "Wear compression stockings to support veins and reduce discomfort.",
+        "Exercise regularly to improve muscle tone and blood flow.",
+        "Avoid prolonged sitting or standing and take regular breaks to move around.",
+        "Consider procedures like sclerotherapy or laser therapy for severe varicose veins."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,776 @@
+{
+  "symptoms": [
+    {
+      "id": 1,
+      "name": "Papules"
+    },
+    {
+      "id": 2,
+      "name": "Pustules"
+    },
+    {
+      "id": 3,
+      "name": "Whiteheads"
+    },
+    {
+      "id": 4,
+      "name": "Blackheads"
+    },
+    {
+      "id": 5,
+      "name": "Inflammation"
+    },
+    {
+      "id": 6,
+      "name": "Cysts"
+    },
+    {
+      "id": 7,
+      "name": "Nodules"
+    },
+    {
+      "id": 8,
+      "name": "Redness"
+    },
+    {
+      "id": 9,
+      "name": "Scarring"
+    },
+    {
+      "id": 10,
+      "name": "Itching"
+    },
+    {
+      "id": 11,
+      "name": "Rapid weight loss"
+    },
+    {
+      "id": 12,
+      "name": "Fever"
+    },
+    {
+      "id": 13,
+      "name": "Chills"
+    },
+    {
+      "id": 14,
+      "name": "Night sweats"
+    },
+    {
+      "id": 15,
+      "name": "Swollen lymph nodes"
+    },
+    {
+      "id": 16,
+      "name": "Fatigue"
+    },
+    {
+      "id": 17,
+      "name": "Diarrhea"
+    },
+    {
+      "id": 18,
+      "name": "Nausea"
+    },
+    {
+      "id": 19,
+      "name": "Vomiting"
+    },
+    {
+      "id": 20,
+      "name": "Joint pain"
+    },
+    {
+      "id": 21,
+      "name": "Jaundice"
+    },
+    {
+      "id": 22,
+      "name": "Abdominal pain"
+    },
+    {
+      "id": 23,
+      "name": "Loss of appetite"
+    },
+    {
+      "id": 24,
+      "name": "Swelling in abdomen"
+    },
+    {
+      "id": 25,
+      "name": "Confusion"
+    },
+    {
+      "id": 26,
+      "name": "Bruising easily"
+    },
+    {
+      "id": 27,
+      "name": "Sneezing"
+    },
+    {
+      "id": 28,
+      "name": "Runny or stuffy nose"
+    },
+    {
+      "id": 29,
+      "name": "Itchy or watery eyes"
+    },
+    {
+      "id": 30,
+      "name": "Itchy throat or ears"
+    },
+    {
+      "id": 31,
+      "name": "Coughing"
+    },
+    {
+      "id": 32,
+      "name": "Rash"
+    },
+    {
+      "id": 33,
+      "name": "Shortness of breath"
+    },
+    {
+      "id": 34,
+      "name": "Swelling"
+    },
+    {
+      "id": 35,
+      "name": "Joint swelling"
+    },
+    {
+      "id": 36,
+      "name": "Joint stiffness"
+    },
+    {
+      "id": 37,
+      "name": "Redness around joints"
+    },
+    {
+      "id": 38,
+      "name": "Warmth at the joint"
+    },
+    {
+      "id": 39,
+      "name": "Muscle aches"
+    },
+    {
+      "id": 40,
+      "name": "Decreased range of motion"
+    },
+    {
+      "id": 41,
+      "name": "Joint deformity"
+    },
+    {
+      "id": 42,
+      "name": "Wheezing"
+    },
+    {
+      "id": 43,
+      "name": "Chest tightness"
+    },
+    {
+      "id": 44,
+      "name": "Difficulty breathing"
+    },
+    {
+      "id": 45,
+      "name": "Trouble sleeping"
+    },
+    {
+      "id": 46,
+      "name": "Rapid breathing"
+    },
+    {
+      "id": 47,
+      "name": "Anxiety"
+    },
+    {
+      "id": 48,
+      "name": "Blue lips or face"
+    },
+    {
+      "id": 49,
+      "name": "Neck pain"
+    },
+    {
+      "id": 50,
+      "name": "Stiffness"
+    },
+    {
+      "id": 51,
+      "name": "Headache"
+    },
+    {
+      "id": 52,
+      "name": "Numbness or tingling"
+    },
+    {
+      "id": 53,
+      "name": "Weakness"
+    },
+    {
+      "id": 54,
+      "name": "Difficulty walking"
+    },
+    {
+      "id": 55,
+      "name": "Muscle spasms"
+    },
+    {
+      "id": 56,
+      "name": "Blurred vision"
+    },
+    {
+      "id": 57,
+      "name": "Dizziness"
+    },
+    {
+      "id": 58,
+      "name": "Loss of bowel or bladder control"
+    },
+    {
+      "id": 59,
+      "name": "Itchy rash"
+    },
+    {
+      "id": 60,
+      "name": "Sore throat"
+    },
+    {
+      "id": 61,
+      "name": "Red spots on the skin"
+    },
+    {
+      "id": 62,
+      "name": "Blisters filled with fluid"
+    },
+    {
+      "id": 63,
+      "name": "Muscle pain"
+    },
+    {
+      "id": 64,
+      "name": "Irritability"
+    },
+    {
+      "id": 65,
+      "name": "Yellowing of skin and eyes"
+    },
+    {
+      "id": 66,
+      "name": "Pale-colored stools"
+    },
+    {
+      "id": 67,
+      "name": "Dark urine"
+    },
+    {
+      "id": 68,
+      "name": "Weight loss"
+    },
+    {
+      "id": 69,
+      "name": "Easy bruising"
+    },
+    {
+      "id": 70,
+      "name": "Swelling in the abdomen"
+    },
+    {
+      "id": 71,
+      "name": "Runny nose"
+    },
+    {
+      "id": 72,
+      "name": "Cough"
+    },
+    {
+      "id": 73,
+      "name": "Watery eyes"
+    },
+    {
+      "id": 74,
+      "name": "Mild fever"
+    },
+    {
+      "id": 75,
+      "name": "Body aches"
+    },
+    {
+      "id": 76,
+      "name": "High fever"
+    },
+    {
+      "id": 77,
+      "name": "Severe headache"
+    },
+    {
+      "id": 78,
+      "name": "Pain behind the eyes"
+    },
+    {
+      "id": 79,
+      "name": "Joint and muscle pain"
+    },
+    {
+      "id": 80,
+      "name": "Skin rash"
+    },
+    {
+      "id": 81,
+      "name": "Mild bleeding (nose or gums)"
+    },
+    {
+      "id": 82,
+      "name": "Decreased platelet count"
+    },
+    {
+      "id": 83,
+      "name": "Increased thirst"
+    },
+    {
+      "id": 84,
+      "name": "Frequent urination"
+    },
+    {
+      "id": 85,
+      "name": "Extreme hunger"
+    },
+    {
+      "id": 86,
+      "name": "Unexplained weight loss"
+    },
+    {
+      "id": 87,
+      "name": "Slow-healing sores"
+    },
+    {
+      "id": 88,
+      "name": "Frequent infections"
+    },
+    {
+      "id": 89,
+      "name": "Tingling or numbness in hands and feet"
+    },
+    {
+      "id": 90,
+      "name": "Bleeding during bowel movements"
+    },
+    {
+      "id": 91,
+      "name": "Pain or discomfort"
+    },
+    {
+      "id": 92,
+      "name": "Swelling around the anus"
+    },
+    {
+      "id": 93,
+      "name": "Irritation"
+    },
+    {
+      "id": 94,
+      "name": "Lump near the anus"
+    },
+    {
+      "id": 95,
+      "name": "Mucus discharge"
+    },
+    {
+      "id": 96,
+      "name": "Difficulty sitting"
+    },
+    {
+      "id": 97,
+      "name": "Painful bowel movements"
+    },
+    {
+      "id": 98,
+      "name": "Blistering"
+    },
+    {
+      "id": 99,
+      "name": "Peeling skin"
+    },
+    {
+      "id": 100,
+      "name": "Burning sensation"
+    },
+    {
+      "id": 101,
+      "name": "Cracking or bleeding skin"
+    },
+    {
+      "id": 102,
+      "name": "White patches"
+    },
+    {
+      "id": 103,
+      "name": "Yellow or brown nails"
+    },
+    {
+      "id": 104,
+      "name": "Hair loss"
+    },
+    {
+      "id": 105,
+      "name": "Abdominal cramps"
+    },
+    {
+      "id": 106,
+      "name": "Dehydration"
+    },
+    {
+      "id": 107,
+      "name": "Bloody stools"
+    },
+    {
+      "id": 108,
+      "name": "Heartburn"
+    },
+    {
+      "id": 109,
+      "name": "Regurgitation"
+    },
+    {
+      "id": 110,
+      "name": "Chest pain"
+    },
+    {
+      "id": 111,
+      "name": "Difficulty swallowing"
+    },
+    {
+      "id": 112,
+      "name": "Hoarseness"
+    },
+    {
+      "id": 113,
+      "name": "Feeling of a lump in the throat"
+    },
+    {
+      "id": 114,
+      "name": "Chest pain or discomfort"
+    },
+    {
+      "id": 115,
+      "name": "Upper body pain or discomfort"
+    },
+    {
+      "id": 116,
+      "name": "Cold sweat"
+    },
+    {
+      "id": 117,
+      "name": "Light-headedness"
+    },
+    {
+      "id": 118,
+      "name": "Indigestion"
+    },
+    {
+      "id": 119,
+      "name": "Back pain"
+    },
+    {
+      "id": 120,
+      "name": "Clay-colored stools"
+    },
+    {
+      "id": 121,
+      "name": "High blood pressure"
+    },
+    {
+      "id": 122,
+      "name": "Irregular heartbeat"
+    },
+    {
+      "id": 123,
+      "name": "Nosebleeds"
+    },
+    {
+      "id": 124,
+      "name": "Increased appetite"
+    },
+    {
+      "id": 125,
+      "name": "Nervousness"
+    },
+    {
+      "id": 126,
+      "name": "Tremors"
+    },
+    {
+      "id": 127,
+      "name": "Sweating"
+    },
+    {
+      "id": 128,
+      "name": "Muscle weakness"
+    },
+    {
+      "id": 129,
+      "name": "Difficulty sleeping"
+    },
+    {
+      "id": 130,
+      "name": "Heat intolerance"
+    },
+    {
+      "id": 131,
+      "name": "Shakiness"
+    },
+    {
+      "id": 132,
+      "name": "Rapid heartbeat"
+    },
+    {
+      "id": 133,
+      "name": "Difficulty concentrating"
+    },
+    {
+      "id": 134,
+      "name": "Hunger"
+    },
+    {
+      "id": 135,
+      "name": "Weight gain"
+    },
+    {
+      "id": 136,
+      "name": "Cold intolerance"
+    },
+    {
+      "id": 137,
+      "name": "Dry skin"
+    },
+    {
+      "id": 138,
+      "name": "Constipation"
+    },
+    {
+      "id": 139,
+      "name": "Depression"
+    },
+    {
+      "id": 140,
+      "name": "Memory problems"
+    },
+    {
+      "id": 141,
+      "name": "Red sores"
+    },
+    {
+      "id": 142,
+      "name": "Blisters"
+    },
+    {
+      "id": 143,
+      "name": "Oozing or fluid-filled blisters"
+    },
+    {
+      "id": 144,
+      "name": "Honey-colored crusts"
+    },
+    {
+      "id": 145,
+      "name": "Pain or tenderness"
+    },
+    {
+      "id": 146,
+      "name": "Skin lesions"
+    },
+    {
+      "id": 147,
+      "name": "Throbbing pain"
+    },
+    {
+      "id": 148,
+      "name": "Sensitivity to light"
+    },
+    {
+      "id": 149,
+      "name": "Sensitivity to sound"
+    },
+    {
+      "id": 150,
+      "name": "Visual disturbances"
+    },
+    {
+      "id": 151,
+      "name": "Creaking or grating sensation"
+    },
+    {
+      "id": 152,
+      "name": "Tenderness"
+    },
+    {
+      "id": 153,
+      "name": "Bone spurs"
+    },
+    {
+      "id": 154,
+      "name": "Cracking sound in joints"
+    },
+    {
+      "id": 155,
+      "name": "Loss of flexibility"
+    },
+    {
+      "id": 156,
+      "name": "Sudden numbness"
+    },
+    {
+      "id": 157,
+      "name": "Trouble speaking or understanding speech"
+    },
+    {
+      "id": 158,
+      "name": "Loss of coordination"
+    },
+    {
+      "id": 159,
+      "name": "Loss of consciousness"
+    },
+    {
+      "id": 160,
+      "name": "Bloating"
+    },
+    {
+      "id": 161,
+      "name": "Bloody or dark stools"
+    },
+    {
+      "id": 162,
+      "name": "Feeling of fullness"
+    },
+    {
+      "id": 163,
+      "name": "Burping"
+    },
+    {
+      "id": 164,
+      "name": "Cough with phlegm"
+    },
+    {
+      "id": 165,
+      "name": "Red patches of skin"
+    },
+    {
+      "id": 166,
+      "name": "Silvery scales"
+    },
+    {
+      "id": 167,
+      "name": "Burning or soreness"
+    },
+    {
+      "id": 168,
+      "name": "Thickened or ridged nails"
+    },
+    {
+      "id": 169,
+      "name": "Swollen joints"
+    },
+    {
+      "id": 170,
+      "name": "Dry, cracked skin"
+    },
+    {
+      "id": 171,
+      "name": "Bleeding skin"
+    },
+    {
+      "id": 172,
+      "name": "Stiff joints"
+    },
+    {
+      "id": 173,
+      "name": "Painful joints"
+    },
+    {
+      "id": 174,
+      "name": "Cough that lasts for weeks"
+    },
+    {
+      "id": 175,
+      "name": "Coughing up blood"
+    },
+    {
+      "id": 176,
+      "name": "Weakness or fatigue"
+    },
+    {
+      "id": 177,
+      "name": "Rose spots on abdomen"
+    },
+    {
+      "id": 178,
+      "name": "Burning sensation during urination"
+    },
+    {
+      "id": 179,
+      "name": "Cloudy or strong-smelling urine"
+    },
+    {
+      "id": 180,
+      "name": "Pelvic pain"
+    },
+    {
+      "id": 181,
+      "name": "Rectal pain (men)"
+    },
+    {
+      "id": 182,
+      "name": "Blood in urine"
+    },
+    {
+      "id": 183,
+      "name": "Urgency to urinate"
+    },
+    {
+      "id": 184,
+      "name": "Veins that are dark purple or blue"
+    },
+    {
+      "id": 185,
+      "name": "Veins that appear twisted or bulging"
+    },
+    {
+      "id": 186,
+      "name": "Aching or pain in the legs"
+    },
+    {
+      "id": 187,
+      "name": "Burning or throbbing in the legs"
+    },
+    {
+      "id": 188,
+      "name": "Muscle cramping"
+    },
+    {
+      "id": 189,
+      "name": "Swelling in the lower legs"
+    },
+    {
+      "id": 190,
+      "name": "Itching around one or more veins"
+    },
+    {
+      "id": 191,
+      "name": "Skin discoloration around a varicose vein"
+    },
+    {
+      "id": 192,
+      "name": "Ulcers near the ankle"
+    },
+    {
+      "id": 193,
+      "name": "Restless legs"
+    }
+  ]
+}

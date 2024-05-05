@@ -24,7 +24,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+
+    "expo-location": {
+      "locationAlwaysAndWhenInUsePermission": "Allow Sick Sense to use your location."
     }
-   
   }
 }

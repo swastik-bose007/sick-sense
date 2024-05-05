@@ -2,13 +2,14 @@ import { useEffect, useState } from 'react';
 import { AppNavigation } from './src/navigations';
 import { useFonts } from 'expo-font';
 import * as SplScreen from 'expo-splash-screen';
-
+import * as Location from 'expo-location'
 
 const App = () => {
   const StyleTypes = ["default", "dark-content", "light-content"];
   const [visibleStatusBar, sentvisibleStatusBar] = useState(false);
   const [styleStatusBar, setStyleStatusBar] = useState(StyleTypes[2]);
-
+  // const [location, setLocation] = useState(null);
+  // const [errorMsg, setErrorMsg] = useState(null);
   
   let [fontsLoaded] = useFonts({
     "SoDoSans-Regular": require('./assets/fonts/SoDoSans-Regular.ttf'),
@@ -25,10 +26,21 @@ const App = () => {
 
   useEffect(() => {
     async function prepare() {
+      // let { status } = await Location.requestForegroundPermissionsAsync();
+      // if (status !== 'granted') {
+      //   setErrorMsg('Permission to access location was denied');
+      //   return;
+      // }
+
+      // let location = await Location.getCurrentPositionAsync();
+      // setLocation(location)
+
       await SplScreen.preventAutoHideAsync();
     }
     prepare();
   }, []);
+
+  // console.log(location)
 
   if (!fontsLoaded) {
     return undefined;
