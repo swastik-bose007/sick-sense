@@ -1,0 +1,284 @@
+{
+  "doctors": [
+    {
+      "name": "Dr. Aarav Dutta",
+      "location": "Kolkata",
+      "designation": "Dermatologist",
+      "specialization": "Acne",
+      "contact": "+91-9876543210"
+    },
+    {
+      "name": "Dr. Priya Ghosh",
+      "location": "Kolkata",
+      "designation": "Infectious Disease Specialist",
+      "specialization": "HIV/AIDS",
+      "contact": "+91-9876543211"
+    },
+    {
+      "name": "Dr. Rohan Chatterjee",
+      "location": "Barrackpore",
+      "designation": "Hepatologist",
+      "specialization": "Alcoholic Hepatitis",
+      "contact": "+91-9876543212"
+    },
+    {
+      "name": "Dr. Nandini Sen",
+      "location": "Sodepur",
+      "designation": "Allergist/Immunologist",
+      "specialization": "Allergy",
+      "contact": "+91-9876543213"
+    },
+    {
+      "name": "Dr. Sanjay Das",
+      "location": "Hoogly",
+      "designation": "Rheumatologist",
+      "specialization": "Arthritis",
+      "contact": "+91-9876543214"
+    },
+    {
+      "name": "Dr. Ananya Mukherjee",
+      "location": "Chinsurah",
+      "designation": "Pulmonologist",
+      "specialization": "Bronchial Asthma",
+      "contact": "+91-9876543215"
+    },
+    {
+      "name": "Dr. Rajesh Banerjee",
+      "location": "Howrah",
+      "designation": "Orthopedic Surgeon",
+      "specialization": "Cervical Spondylosis",
+      "contact": "+91-9876543216"
+    },
+    {
+      "name": "Dr. Neha Basu",
+      "location": "Naihati",
+      "designation": "Pediatrician",
+      "specialization": "Chickenpox",
+      "contact": "+91-9876543217"
+    },
+    {
+      "name": "Dr. Amit Mukhopadhyay",
+      "location": "Burdwan",
+      "designation": "Gastroenterologist",
+      "specialization": "Chronic Cholestasis",
+      "contact": "+91-9876543218"
+    },
+    {
+      "name": "Dr. Sneha Roy",
+      "location": "Liluah",
+      "designation": "General Physician",
+      "specialization": "Common Cold",
+      "contact": "+91-9876543219"
+    },
+    {
+      "name": "Dr. Rahul Chakraborty",
+      "location": "Bandel",
+      "designation": "Infectious Disease Specialist",
+      "specialization": "Dengue",
+      "contact": "+91-9876543220"
+    },
+    {
+      "name": "Dr. Anjali Dasgupta",
+      "location": "Bandel",
+      "designation": "Endocrinologist",
+      "specialization": "Diabetes",
+      "contact": "+91-9876543221"
+    },
+    {
+      "name": "Dr. Vikram Sengupta",
+      "location": "Barasat",
+      "designation": "Proctologist",
+      "specialization": "Hemorrhoids (Piles)",
+      "contact": "+91-9876543222"
+    },
+    {
+      "name": "Dr. Snehal Biswas",
+      "location": "Bandel",
+      "designation": "Dermatologist",
+      "specialization": "Drug Reaction",
+      "contact": "+91-9876543223"
+    },
+    {
+      "name": "Dr. Ritu Ghosh",
+      "location": "Burdwan",
+      "designation": "Dermatologist",
+      "specialization": "Fungal Infection",
+      "contact": "+91-9876543224"
+    },
+    {
+      "name": "Dr. Ajay Chowdhury",
+      "location": "Hoogly",
+      "designation": "Gastroenterologist",
+      "specialization": "Gastroenteritis",
+      "contact": "+91-9876543225"
+    },
+    {
+      "name": "Dr. Kirti Das",
+      "location": "Kolkata",
+      "designation": "Gastroenterologist",
+      "specialization": "GERD (Gastroesophageal Reflux Disease)",
+      "contact": "+91-9876543226"
+    },
+    {
+      "name": "Dr. Arjun Mukherjee",
+      "location": "Barasat",
+      "designation": "Cardiologist",
+      "specialization": "Heart Attack",
+      "contact": "+91-9876543227"
+    },
+    {
+      "name": "Dr. Neha Chakrabarti",
+      "location": "Naihati",
+      "designation": "Infectious Disease Specialist",
+      "specialization": "Hepatitis A",
+      "contact": "+91-9876543228"
+    },
+    {
+      "name": "Dr. Sunil Sen",
+      "location": "Chinsurah",
+      "designation": "Gastroenterologist",
+      "specialization": "Hepatitis B",
+      "contact": "+91-9876543229"
+    },
+    {
+      "name": "Dr. Rakesh Paul",
+      "location": "Hoogly",
+      "designation": "Gastroenterologist",
+      "specialization": "Hepatitis C",
+      "contact": "+91-9876543230"
+    },
+    {
+      "name": "Dr. Tanvi Chatterjee",
+      "location": "Chandannagar",
+      "designation": "Infectious Disease Specialist",
+      "specialization": "Hepatitis D",
+      "contact": "+91-9876543231"
+    },
+    {
+      "name": "Dr. Vivek Saha",
+      "location": "Mankundu",
+      "designation": "Gastroenterologist",
+      "specialization": "Hepatitis E",
+      "contact": "+91-9876543232"
+    },
+    {
+      "name": "Dr. Anjali Das",
+      "location": "Bandel",
+      "designation": "Cardiologist",
+      "specialization": "Hypertension (High Blood Pressure)",
+      "contact": "+91-9876543233"
+    },
+    {
+      "name": "Dr. Rohit Dasgupta",
+      "location": "Bandel",
+      "designation": "Endocrinologist",
+      "specialization": "Hyperthyroidism",
+      "contact": "+91-9876543234"
+    },
+    {
+      "name": "Dr. Manish Sengupta",
+      "location": "Barrackpore",
+      "designation": "Endocrinologist",
+      "specialization": "Hypoglycemia (Low Blood Sugar)",
+      "contact": "+91-9876543235"
+    },
+    {
+      "name": "Dr. Preeti Bannerjee",
+      "location": "Chinsurah",
+      "designation": "Endocrinologist",
+      "specialization": "Hypothyroidism",
+      "contact": "+91-9876543236"
+    },
+    {
+      "name": "Dr. Devika Roy",
+      "location": "Howrah",
+      "designation": "Dermatologist",
+      "specialization": "Impetigo",
+      "contact": "+91-9876543237"
+    },
+    {
+      "name": "Dr. Anand Chakraborty",
+      "location": "Liluah",
+      "designation": "Gastroenterologist",
+      "specialization": "Jaundice",
+      "contact": "+91-9876543238"
+    },
+    {
+      "name": "Dr. Praveen Sen",
+      "location": "Mankundu",
+      "designation": "Infectious Disease Specialist",
+      "specialization": "Malaria",
+      "contact": "+91-9876543239"
+    },
+    {
+      "name": "Dr. Megha Saha",
+      "location": "Naihati",
+      "designation": "Neurologist",
+      "specialization": "Migraine",
+      "contact": "+91-9876543240"
+    },
+    {
+      "name": "Dr. Vinod Chatterjee",
+      "location": "Naihati",
+      "designation": "Orthopedic Surgeon",
+      "specialization": "Osteoarthritis",
+      "contact": "+91-9876543241"
+    },
+    {
+      "name": "Dr. Neha Basu",
+      "location": "Naihati",
+      "designation": "Neurologist",
+      "specialization": "Paralysis (Brain Hemorrhage)",
+      "contact": "+91-9876543242"
+    },
+    {
+      "name": "Dr. Rajesh Banerjee",
+      "location": "Naihati",
+      "designation": "Gastroenterologist",
+      "specialization": "Peptic Ulcer Disease",
+      "contact": "+91-9876543243"
+    },
+    {
+      "name": "Dr. Sushant Chatterjee",
+      "location": "Kolkata",
+      "designation": "Pulmonologist",
+      "specialization": "Pneumonia",
+      "contact": "+91-9876543244"
+    },
+    {
+      "name": "Dr. Tanvi Das",
+      "location": "Barrackpore",
+      "designation": "Dermatologist",
+      "specialization": "Psoriasis",
+      "contact": "+91-9876543245"
+    },
+    {
+      "name": "Dr. Akshay Chatterjee",
+      "location": "Barasat",
+      "designation": "Pulmonologist",
+      "specialization": "Tuberculosis",
+      "contact": "+91-9876543246"
+    },
+    {
+      "name": "Dr. Anushka Dasgupta",
+      "location": "Chandannagar",
+      "designation": "Infectious Disease Specialist",
+      "specialization": "Typhoid",
+      "contact": "+91-9876543247"
+    },
+    {
+      "name": "Dr. Rohan Das",
+      "location": "Chandannagar",
+      "designation": "Urologist",
+      "specialization": "Urinary Tract Infection",
+      "contact": "+91-9876543248"
+    },
+    {
+      "name": "Dr. Anjali Chakraborty",
+      "location": "Chinsurah",
+      "designation": "Vascular Surgeon",
+      "specialization": "Varicose Veins",
+      "contact": "+91-9876543249"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ const SplashScreen = ({ navigation }) => {
     }, [])
     const splashNav = () => {
         const intervalNav = setInterval(() => {
-            navigation.replace('HomeScreen')
+            navigation.replace('DashboardScreen')
             clearInterval(intervalNav)
         }, 2000);
     };
