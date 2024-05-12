@@ -133,11 +133,15 @@ const FindDoctorScreen = () => {
           </TouchableOpacity>
         </View>
         <View>
-          <FlatList
-            data={filteredDoctors}
-            renderItem={renderDoctorItem}
-            keyExtractor={item => item.id}
-          />
+          {filteredDoctors.length > 0 ? (
+            <FlatList
+              data={filteredDoctors}
+              renderItem={renderDoctorItem}
+              keyExtractor={item => item.id}
+            />
+          ) : (
+              <Text className='text-red-600' style={{fontFamily: 'OpenSans-SemiBold'}}>No related doctors found for this disease.</Text>
+          )}
         </View>
       </View>
 
