@@ -43,6 +43,19 @@ const FindDiseaseScreen = () => {
         setFilteredSymptoms(symptomsData.symptoms);
     }, []);
 
+    //fake api calls
+    // useEffect(() => {
+    //     const getData = async () => {
+    //         const res = await axios.get('https://gcp.com/getsymptomp')
+    //         console.log(res)
+    //     }
+    // },[])
+
+    // const findDisease = async () => {
+    //     const res = await axios.post('https://gcp.com/getdisease')
+    //     console.log(res);
+    // }
+
     const handleSearch = (text) => {
         setSearchKeyword(text);
         const filtered = symptomsData.symptoms.filter(symptom =>
